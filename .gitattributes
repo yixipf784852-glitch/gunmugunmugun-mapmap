@@ -1,0 +1,6 @@
+# 图床仓库：全部按字节原样存取，禁止任何换行转换。
+# （本机 core.autocrlf=true，不写这行 git 可能把 .gz / .webp 当文本改坏）
+* -text
+*.webp binary
+*.gz   binary
+*.json text eol=lf
